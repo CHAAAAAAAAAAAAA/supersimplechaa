@@ -1,0 +1,154 @@
+*
+{
+  margin: 2.5;
+  padding: 2.5;
+  box-sizing:border-box;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  
+  
+}
+body
+{
+  background-size: 100% 100%;
+  background-image: url(Images/image1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  min-height: 100vh;
+  padding-left: 2.5%;
+}
+
+.wrapper
+{
+  
+  width: 400px;
+  background-image: url(Images/image2.jpg);
+  color: lawngreen;
+  box-shadow: 2px 2px 5px 2px red, -2px -2px 5px 2px blue, 2px -2px 5px 2px yellow;
+  
+}
+
+.wrapper h1
+{
+  font-size: 50px ;
+  text-align: center;
+  box-shadow: -2px -2px 5px 2px blue;
+  
+  
+}
+
+.wrapper .input-box
+{
+  width: 100%;
+  height: 50px;
+  box-shadow: 2px 2px 5px 2px red, -2px -2px 5px 2px blue, 2px -2px 5px 2px yellow;
+  font-size: 30;
+  margin: 30px 0;
+  border-radius: 40px;
+}
+
+.input-box input
+{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border : none;
+  outline: none;
+  
+  
+  border-radius: 80px;
+  font-size: 20;
+  color: greenyellow;
+}
+
+.input-box ::placeholder
+{
+  color: yellowgreen;
+  font-style: bold;
+  font-style: italic;
+  
+}
+
+button
+{ 
+
+  cursor: pointer;
+  position: center;
+  color: lawngreen;
+  width: 50%;
+  height: 50px;
+  font-size: 30px;
+  background: slategray;
+  margin: 0px;
+  border: none;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+button:hover
+{
+
+  color: red;
+  width: 200px;
+  transition: ease 0.5s;
+  
+}
+button:active
+{
+  transition: 1s;
+  background-color: Gray;
+  
+}
+
+.wrapper .remember-forgot
+
+{
+  
+  display: flex;
+  justify-content: space-between;
+  font-size: 20;
+  margin: -5px;
+  
+}
+
+.remember-forgot a
+{
+  color: limegreen;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.wrapper p
+
+{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20;
+  margin: -5px;
+  
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+.register-link a
+
+{
+  color: limegreen;
+  font-style: bold;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
